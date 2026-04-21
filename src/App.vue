@@ -3,6 +3,7 @@ import NavBar from './components/NavBar.vue'
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Home from './components/Home.vue'
+import Connect from './components/Contact.vue';
 </script>
 
 <template>
@@ -17,6 +18,7 @@ import Home from './components/Home.vue'
 
   <main>
     <Home />
+    <Connect/>
   </main>
 </template>
 

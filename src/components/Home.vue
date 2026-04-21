@@ -57,7 +57,7 @@ h1 {
 
 h3 {
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
   color: #a78bfa;
   margin-bottom: 1.5rem;
 }
