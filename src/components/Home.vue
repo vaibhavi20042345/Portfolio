@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import mainImg from '@/assets/mainImg.png'
-const desc = "Passionate Full Stack Developer with 8+ years of experience building scalable, enterprise-grade applications. Specializing in ASP.NET Core, Web API, SQL Server, and Angular — with experience in mobile development and a growing focus on AI & Machine Learning."
+const title = "Full Stack .NET Developer 🚀 | Angular 🅰️ | React ⚛️ | Vue 🟢 | Web API 🌐 | Mobile App Builder 📱 | AI Learner 🤖"
+const desc = "Passionate Full Stack Developer with 8+ years of experience building scalable, enterprise-grade applications. Specializing in ASP.NET Core, Web API, SQL Server, and Angular — with experience in mobile development and a growing focus on AI & Machine Learning. Let's connect and build something amazing together! 🚀"
 </script>
 
 <template>
@@ -8,7 +9,9 @@ const desc = "Passionate Full Stack Developer with 8+ years of experience buildi
     <div class="hero-text">
       <p class="greeting">Hi, I'm</p>
       <h1>Vaibhavi Panchal</h1>
-      <h2>Full Stack .NET Developer</h2>
+      <!-- <h2>Full Stack .NET Developer</h2> -->
+
+      <h3>{{ title }}</h3>
       <p class="desc">{{ desc }}</p>
       <div class="cta">
         <a href="#projects" class="btn-primary">View Projects</a>
@@ -34,7 +37,7 @@ const desc = "Passionate Full Stack Developer with 8+ years of experience buildi
 
 .hero-text {
   flex: 1;
-  max-width: 600px;
+  max-width: 700px;
 }
 
 .greeting {
@@ -52,11 +55,18 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
-h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
+h3 {
+  font-size: 1.2rem;
+  font-weight: 300;
   color: #a78bfa;
   margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #c4b5fd;
+  margin-bottom: 1rem;
+  line-height: 1.6;
 }
 
 .desc {
@@ -102,15 +112,23 @@ h2 {
 
 .hero-image {
   flex-shrink: 0;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #ede9fe, #ddd6fe);
+  border: 3px solid rgba(139, 92, 246, 0.3);
+  box-shadow: 0 0 40px rgba(139, 92, 246, 0.15);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-image img {
-  width: 320px;
-  height: 320px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid #7c3aed;
-  box-shadow: 0 0 40px rgba(124, 58, 237, 0.5);
+  object-position: center;
 }
 
 @media (max-width: 768px) {
@@ -121,6 +139,6 @@ h2 {
   }
   h1 { font-size: 2.5rem; }
   .cta { justify-content: center; }
-  .hero-image img { width: 220px; height: 220px; }
+  .hero-image { width: 240px; height: 240px; }
 }
 </style>
