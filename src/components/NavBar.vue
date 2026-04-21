@@ -23,8 +23,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
-  background-color: #1a1a2e;
+  padding: 1rem 6rem;
+  background-color: #0d0d1a;
+  border-bottom: 1px solid rgba(124, 58, 237, 0.2);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -46,13 +47,13 @@ ul {
 }
 
 a {
-  color: #ccc;
+  color: #9ca3af;
   text-decoration: none;
   font-size: 0.95rem;
   transition: color 0.2s;
 }
 
 a:hover {
-  color: #fff;
+  color: #a78bfa;
 }
 </style>
