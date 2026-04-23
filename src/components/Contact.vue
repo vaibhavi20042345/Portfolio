@@ -95,9 +95,10 @@ async function handleSubmit() {
 
 <style scoped>
 #contact {
-  padding: 60px 20px;
+  padding: 60px 1.5rem;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .contact-wrapper {
@@ -122,6 +123,12 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
 }
 
 .field {

@@ -187,11 +187,22 @@ const certificates = [
 
 @media (max-width: 768px) {
   .education {
-    padding: 3rem 1.5rem;
+    padding: 3rem 1.25rem;
   }
   .edu-grid {
     grid-template-columns: 1fr;
-    gap: 3rem;
+    gap: 2.5rem;
+  }
+  .timeline-year {
+    min-width: 4.5rem;
+    font-size: 0.75rem;
+  }
+  .cert-row {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .cert-btn {
+    font-size: 0.7rem;
   }
 }
 </style>

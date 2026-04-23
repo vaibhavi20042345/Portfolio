@@ -134,11 +134,15 @@ h3 {
 @media (max-width: 768px) {
   .hero {
     flex-direction: column-reverse;
-    padding: 3rem 1.5rem;
+    padding: 2rem 1.5rem;
     text-align: center;
+    gap: 2rem;
+    min-height: unset;
   }
-  h1 { font-size: 2.5rem; }
-  .cta { justify-content: center; }
-  .hero-image { width: 240px; height: 240px; }
+  h1 { font-size: 2rem; }
+  h3 { font-size: 1rem; }
+  .desc { font-size: 0.9rem; }
+  .cta { justify-content: center; flex-wrap: wrap; }
+  .hero-image { width: 200px; height: 200px; }
 }
 </style>
