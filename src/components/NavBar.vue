@@ -2,9 +2,10 @@
 import { ref } from 'vue'
 const links = [
   { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
+  // { label: 'About', href: '#about' },
   { label: 'Education', href: '#education' },
-  { label: 'Projects', href: '#projects' },
+  { label: 'Experience', href: '#experience' },
+  // { label: 'Projects', href: '#projects' },
   { label: 'Contact', href: '#contact' },
 ]
 const menuOpen = ref(false)

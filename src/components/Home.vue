@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import mainImg from '@/assets/mainImg.png'
 const title = "Full Stack .NET Developer 🚀 | Angular 🅰️ | React ⚛️ | Vue 🟢 | Web API 🌐 | Mobile App Builder 📱 | AI Learner 🤖"
-const desc = "Passionate Full Stack Developer with 8+ years of experience building scalable, enterprise-grade applications. Specializing in ASP.NET Core, Web API, SQL Server, and Angular — with experience in mobile development and a growing focus on AI & Machine Learning. Let's connect and build something amazing together! 🚀"
+const desc = "Passionate Full Stack Developer with 8+ years of experience building scalable, enterprise-grade applications. Specializing in ASP.NET Core, Web API, SQL Server, Angular, React and Vue Js — with experience in mobile development and a growing focus on AI & Machine Learning. Let's connect and build something amazing together! 🚀"
 </script>
 
 <template>

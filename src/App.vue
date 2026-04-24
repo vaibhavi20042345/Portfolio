@@ -5,6 +5,7 @@ import TheWelcome from './components/TheWelcome.vue'
 import Home from './components/Home.vue'
 import Connect from './components/Contact.vue';
 import Education from './components/Education.vue';
+import Experience from './components/Experience.vue';
 </script>
 
 <template>
@@ -20,6 +21,7 @@ import Education from './components/Education.vue';
   <main>
     <Home />
     <Education/>
+    <Experience/>
     <Connect/>
   </main>
 </template>
