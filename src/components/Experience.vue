@@ -4,7 +4,7 @@ const experience = [
   { period: 'Mar 2023–Jun 2024', role: 'Software Developer', company: 'RBC, Toronto, ON' },
   { period: 'May 2022–Aug 2022', role: 'eLearning Developer (Full-time)', company: 'Sault College, Sault Ste. Marie, ON' },
   { period: 'Oct 2021–Apr 2022', role: 'eLearning Developer (Part-time)', company: 'Sault College, Sault Ste. Marie, ON' },
-  { period: 'Jun 2020–Jan 2021', role: 'Software Developer', company: 'Rigel Networks Private Ltd., India' },
+  // { period: 'Jun 2020–Jan 2021', role: 'Software Developer', company: 'Rigel Networks Private Ltd., India' },
   { period: 'Dec 2017–Nov 2019', role: 'Software Developer', company: 'Civica Resource Private Ltd., India' },
   { period: 'Jul 2015–Nov 2017', role: 'Software Developer', company: 'Yukon Technologies PVT Ltd., India' },
 ]
