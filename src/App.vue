@@ -6,6 +6,7 @@ import Home from './components/Home.vue'
 import Connect from './components/Contact.vue';
 import Education from './components/Education.vue';
 import Experience from './components/Experience.vue';
+import AIProjects from './components/AIProjects.vue';
 </script>
 
 <template>
@@ -22,6 +23,7 @@ import Experience from './components/Experience.vue';
     <Home />
     <Education/>
     <Experience/>
+    <AIProjects/>
     <Connect/>
   </main>
 </template>

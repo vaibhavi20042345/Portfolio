@@ -5,7 +5,7 @@ const links = [
   // { label: 'About', href: '#about' },
   { label: 'Education', href: '#education' },
   { label: 'Experience', href: '#experience' },
-  // { label: 'Projects', href: '#projects' },
+  { label: 'AI Projects', href: '#aiprojects' },
   { label: 'Contact', href: '#contact' },
 ]
 const menuOpen = ref(false)
