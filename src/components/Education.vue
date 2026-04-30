@@ -7,7 +7,8 @@ const education = [
 ]
 
 const certificates = [
-  { name: 'Certificate of completion: Claude 101', issuer: 'Anthropic', date: 'Arp 2026', link:'https://verify.skilljar.com/c/2cwmopv3qc96' },
+  { name: 'Claude Code in Action', issuer: 'Anthropic', date: 'Arp 2026', link:'https://verify.skilljar.com/c/6na752iyzge5' },
+  { name: 'Claude 101', issuer: 'Anthropic', date: 'Arp 2026', link:'https://verify.skilljar.com/c/2cwmopv3qc96' },
   { name: 'Microsoft Azure Cosmos DB', issuer: 'Microsoft', date: 'Jan 2026' , link:'https://www.coursera.org/account/accomplishments/verify/SN4AM7NJYMIR' },
   { name: 'AWS Introduction to Generative AI – Art of the Possible', issuer: 'Amazon Web Services (AWS)', date: 'Sep 2025', link:'https://www.linkedin.com/in/vaibhavi0490/overlay/Certifications/1491127015/treasury?profileId=ACoAAC-DUQ4BdT0wpMDsGcX_8ATOJ0-qLrVtLVI'},
   { name: 'Foundational C# with Microsoft', issuer: 'freeCodeCamp', date: 'Mar 2025', link:'https://www.freecodecamp.org/certification/fcc74564a36-34ed-4436-b034-59406e262735/foundational-c-sharp-with-microsoft' },
